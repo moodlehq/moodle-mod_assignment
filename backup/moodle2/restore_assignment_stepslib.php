@@ -115,7 +115,7 @@ class restore_assignment_activity_structure_step extends restore_activity_struct
         // Check that the assignment module is installed.
         if ($plugininfo && $plugininfo->is_installed_and_upgraded()) {
             // Include the required mod assign upgrade code.
-            require_once($CFG->dirroot . '/mod/assign/upgradelib.php');
+            require_once($CFG->dirroot . '/mod/assignment/upgradelib.php');
             require_once($CFG->dirroot . '/mod/assign/locallib.php');
 
             // Get the id and type of this assignment.

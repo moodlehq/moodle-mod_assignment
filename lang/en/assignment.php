@@ -59,3 +59,9 @@ $string['privacy:metadata:assignment_submissions:submissioncomment'] = 'The subm
 $string['privacy:metadata:assignment_submissions:teacher'] = 'The teacher user ID grading the assignment submission.';
 $string['privacy:metadata:assignment_submissions:timemarked'] = 'The marking date/time of the assignment submission.';
 $string['privacy:metadata:assignment_submissions:mailed'] = 'The mailed notification status of the assignment submission.';
+// Copied from mod_assign.
+$string['couldnotcreatenewassignmentinstance'] = 'Could not create new assignment instance.';
+$string['couldnotcreatenewcoursemodule'] = 'Could not create new course module.';
+$string['couldnotinsertsubmission'] = 'Could not insert submission.';
+$string['couldnotinsertgrade'] = 'Could not insert grade.';
+$string['conversionexception'] = 'Could not convert assignment. Exception was: {$a}.';
